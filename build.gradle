@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'App'
+
+dependencies {
+    compile group: 'org.seasar.fisshplate', name: 'fisshplate', version: '0.1.4'
+}
+
+repositories {
+    jcenter()
+    maven {
+        url "https://www.seasar.org/maven/maven2/"
+    }
+}
